@@ -3,11 +3,12 @@ function printInvertedTri()
     let gap_count=0;
     for (let line_count=0; line_count<22; line_count++)
     {
-        let zero_print_length= 21-gap_count;
+        var zero_print_length= 21-gap_count;
         printRow(zero_print_length, gap_count);
         console.log(" ");
         line_count<=9 ? gap_count++ : gap_count --;
     }
+    console.log(zero_print_length, "++++++++++++++++++++++++++++++=")
 }
 
 
