@@ -1,5 +1,6 @@
 const myList = [
     "home",
     "school",
-     "hospital"
+     "hospital",
+     "police station",
   ];
